@@ -1,0 +1,18 @@
+[build-system]
+build-backend = "flit.buildapi"
+requires = ["flit"]
+
+[tool.flit.metadata]
+author = "Adrian Sampson"
+author-email = "asampson@cs.cornell.edu"
+home-page = "https://github.com/sampsyo/bril"
+module = "brench"
+requires = [
+  "click",
+  "tomlkit",
+  "matplotlib",
+]
+requires-python = ">=3.4"
+
+[tool.flit.scripts]
+brench = "brench:brench"
