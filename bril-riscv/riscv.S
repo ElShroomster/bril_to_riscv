@@ -2,7 +2,7 @@
 .main:
 # Arguments to main
   addi x2, x2, -8
-  addi x18, x0, 720
+  addi x18, x0, 633
   sw x18, 0(x2)
   addi x18, x0, 844
   sw x18, 4(x2)

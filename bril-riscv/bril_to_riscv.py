@@ -9,7 +9,10 @@ addi x2, x2, -8\naddi x18, x0, 4\nsw x18, 0(x2)\naddi x18, x0, 20\nsw x18, 4(x2)
 label_number = 0
 
 def query_arguments():
-    inputs = sys.argv[1:]
+    if len(sys.argv) > 1:
+        inputs = sys.argv[1:]
+    else:
+        return
     # while True:
     #     user_input = input()
     #     if user_input.strip() == "":
