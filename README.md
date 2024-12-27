@@ -1,3 +1,9 @@
+Final Writeup: https://docs.google.com/document/d/1-P0U7sk-yanzUbrLZEK9w4AfMaM6NAiCHkVHk1pk-Ho/edit
+
+
+
+
+
 Bril: A Compiler Intermediate Representation for Learning
 =========================================================
 
